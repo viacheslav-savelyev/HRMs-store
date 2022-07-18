@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  * Forked from Normalize.css, licensed MIT (https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
  */
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 :root {
   --bs-blue:#0d6efd;
   --bs-indigo:#6610f2;
@@ -59,16 +60,19 @@
   --bs-body-bg:#fff;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 *, ::after, ::before {
   box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion: no-preference) {
+  /* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
   :root {
     scroll-behavior: smooth;
   }
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -82,6 +86,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 hr {
   margin: 1rem 0;
   color: inherit;
@@ -90,10 +95,12 @@ hr {
   opacity: .25;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 hr:not([size]) {
   height: 1px;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: .5rem;
@@ -101,59 +108,71 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
 
 @media (min-width: 1200px) {
+  /* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
   h1 {
     font-size: 2.5rem;
   }
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 h2 {
   font-size: calc(1.325rem + .9vw);
 }
 
 @media (min-width: 1200px) {
+  /* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
   h2 {
     font-size: 2rem;
   }
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 h3 {
   font-size: calc(1.3rem + .6vw);
 }
 
 @media (min-width: 1200px) {
+  /* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
   h3 {
     font-size: 1.75rem;
   }
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 h4 {
   font-size: calc(1.275rem + .3vw);
 }
 
 @media (min-width: 1200px) {
+  /* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
   h4 {
     font-size: 1.5rem;
   }
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 h5 {
   font-size: 1.25rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 h6 {
   font-size: 1rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 p {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 abbr[data-bs-original-title], abbr[title] {
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
@@ -162,51 +181,62 @@ abbr[data-bs-original-title], abbr[title] {
   text-decoration-skip-ink: none;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 address {
   margin-bottom: 1rem;
   font-style: normal;
   line-height: inherit;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ol, ul {
   padding-left: 2rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 dl, ol, ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ol ol, ol ul, ul ol, ul ul {
   margin-bottom: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 dt {
   font-weight: 700;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 dd {
   margin-bottom: .5rem;
   margin-left: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 blockquote {
   margin: 0 0 1rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 b, strong {
   font-weight: bolder;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 small {
   font-size: .875em;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 mark {
   padding: .2em;
   background-color: #fcf8e3;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 sub, sup {
   position: relative;
   font-size: .75em;
@@ -214,28 +244,34 @@ sub, sup {
   vertical-align: baseline;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 sub {
   bottom: -.25em;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 sup {
   top: -.5em;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 a {
   color: #0d6efd;
   text-decoration: underline;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 a:hover {
   color: #0a58ca;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
   color: inherit;
   text-decoration: none;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 code, kbd, pre, samp {
   font-family: var(--bs-font-monospace);
   font-size: 1em;
@@ -243,6 +279,7 @@ code, kbd, pre, samp {
   unicode-bidi: bidi-override;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 pre {
   display: block;
   margin-top: 0;
@@ -251,22 +288,26 @@ pre {
   font-size: .875em;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 pre code {
   font-size: inherit;
   color: inherit;
   word-break: normal;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 code {
   font-size: .875em;
   color: #d63384;
   word-wrap: break-word;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 a > code {
   color: inherit;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 kbd {
   padding: .2rem .4rem;
   font-size: .875em;
@@ -275,25 +316,30 @@ kbd {
   border-radius: .2rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 kbd kbd {
   padding: 0;
   font-size: 1em;
   font-weight: 700;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 figure {
   margin: 0 0 1rem;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 img, svg {
   vertical-align: middle;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 table {
   caption-side: bottom;
   border-collapse: collapse;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 caption {
   padding-top: .5rem;
   padding-bottom: .5rem;
@@ -301,29 +347,35 @@ caption {
   text-align: left;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 th {
   text-align: inherit;
   text-align: -webkit-match-parent;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 tbody, td, tfoot, th, thead, tr {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 label {
   display: inline-block;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 button {
   border-radius: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 button:focus:not(:focus-visible) {
   outline: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 button, input, optgroup, select, textarea {
   margin: 0;
   font-family: inherit;
@@ -331,43 +383,53 @@ button, input, optgroup, select, textarea {
   line-height: inherit;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 button, select {
   text-transform: none;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 [role=button] {
   cursor: pointer;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 select {
   word-wrap: normal;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 select:disabled {
   opacity: 1;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 [list]::-webkit-calendar-picker-indicator {
   display: none;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 [type=button], [type=reset], [type=submit], button {
   -webkit-appearance: button;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
   cursor: pointer;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::-moz-focus-inner {
   padding: 0;
   border-style: none;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 textarea {
   resize: vertical;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 fieldset {
   min-width: 0;
   padding: 0;
@@ -375,6 +437,7 @@ fieldset {
   border: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 legend {
   float: left;
   width: 100%;
@@ -385,66 +448,81 @@ legend {
 }
 
 @media (min-width: 1200px) {
+  /* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
   legend {
     font-size: 1.5rem;
   }
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 legend + * {
   clear: left;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-fields-wrapper, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-text, ::-webkit-datetime-edit-year-field {
   padding: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::-webkit-inner-spin-button {
   height: auto;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::-webkit-color-swatch-wrapper {
   padding: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::-webkit-file-upload-button {
   font: inherit;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::file-selector-button {
   font: inherit;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 output {
   display: inline-block;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 iframe {
   border: 0;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 summary {
   display: list-item;
   cursor: pointer;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 progress {
   vertical-align: baseline;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/libs/_bootstrap-reboot.min.scss */
 [hidden] {
   display: none !important;
 }
@@ -475,6 +553,7 @@ progress {
 }
 
 /* Slider */
+/* line 2, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-slider {
   position: relative;
   display: block;
@@ -490,6 +569,7 @@ progress {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* line 21, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-list {
   position: relative;
   display: block;
@@ -498,15 +578,18 @@ progress {
   padding: 0;
 }
 
+/* line 31, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-list:focus {
   outline: none;
 }
 
+/* line 35, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-list.dragging {
   cursor: pointer;
   cursor: hand;
 }
 
+/* line 41, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-slider .slick-track,
 .slick-slider .slick-list {
   -webkit-transform: translate3d(0, 0, 0);
@@ -516,6 +599,7 @@ progress {
   transform: translate3d(0, 0, 0);
 }
 
+/* line 51, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-track {
   position: relative;
   top: 0;
@@ -525,20 +609,24 @@ progress {
   margin-right: auto;
 }
 
+/* line 61, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-track:before,
 .slick-track:after {
   display: table;
   content: '';
 }
 
+/* line 68, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-track:after {
   clear: both;
 }
 
+/* line 72, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-loading .slick-track {
   visibility: hidden;
 }
 
+/* line 77, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-slide {
   display: none;
   float: left;
@@ -546,36 +634,44 @@ progress {
   min-height: 1px;
 }
 
+/* line 85, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 [dir='rtl'] .slick-slide {
   float: right;
 }
 
+/* line 89, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-slide img {
   display: block;
 }
 
+/* line 93, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-slide.slick-loading img {
   display: none;
 }
 
+/* line 97, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-slide.dragging img {
   pointer-events: none;
 }
 
+/* line 101, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-initialized .slick-slide {
   display: block;
 }
 
+/* line 105, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-loading .slick-slide {
   visibility: hidden;
 }
 
+/* line 109, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-vertical .slick-slide {
   display: block;
   height: auto;
   border: 1px solid transparent;
 }
 
+/* line 117, ../../PORTFOLIOS/02_Sport/src/sass/libs/_slick.scss */
 .slick-arrow.slick-hidden {
   display: none;
 }
@@ -587,12 +683,14 @@ progress {
  *
  * Copyright (c) 2020 Animate.css
  */
+/* line 8, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 :root {
   --animate-duration: 1s;
   --animate-delay: 1s;
   --animate-repeat: 1;
 }
 
+/* line 13, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -602,11 +700,13 @@ progress {
   animation-fill-mode: both;
 }
 
+/* line 21, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
+/* line 25, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__repeat-1 {
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
@@ -614,6 +714,7 @@ progress {
   animation-iteration-count: var(--animate-repeat);
 }
 
+/* line 31, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__repeat-2 {
   -webkit-animation-iteration-count: calc(1 * 2);
   animation-iteration-count: calc(1 * 2);
@@ -621,6 +722,7 @@ progress {
   animation-iteration-count: calc(var(--animate-repeat) * 2);
 }
 
+/* line 37, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__repeat-3 {
   -webkit-animation-iteration-count: calc(1 * 3);
   animation-iteration-count: calc(1 * 3);
@@ -628,6 +730,7 @@ progress {
   animation-iteration-count: calc(var(--animate-repeat) * 3);
 }
 
+/* line 43, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__delay-1s {
   -webkit-animation-delay: 1s;
   animation-delay: 1s;
@@ -635,6 +738,7 @@ progress {
   animation-delay: var(--animate-delay);
 }
 
+/* line 49, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__delay-2s {
   -webkit-animation-delay: calc(1s * 2);
   animation-delay: calc(1s * 2);
@@ -642,6 +746,7 @@ progress {
   animation-delay: calc(var(--animate-delay) * 2);
 }
 
+/* line 55, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__delay-3s {
   -webkit-animation-delay: calc(1s * 3);
   animation-delay: calc(1s * 3);
@@ -649,6 +754,7 @@ progress {
   animation-delay: calc(var(--animate-delay) * 3);
 }
 
+/* line 61, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__delay-4s {
   -webkit-animation-delay: calc(1s * 4);
   animation-delay: calc(1s * 4);
@@ -656,6 +762,7 @@ progress {
   animation-delay: calc(var(--animate-delay) * 4);
 }
 
+/* line 67, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__delay-5s {
   -webkit-animation-delay: calc(1s * 5);
   animation-delay: calc(1s * 5);
@@ -663,6 +770,7 @@ progress {
   animation-delay: calc(var(--animate-delay) * 5);
 }
 
+/* line 73, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__faster {
   -webkit-animation-duration: calc(1s / 2);
   animation-duration: calc(1s / 2);
@@ -670,6 +778,7 @@ progress {
   animation-duration: calc(var(--animate-duration) / 2);
 }
 
+/* line 79, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__fast {
   -webkit-animation-duration: calc(1s * 0.8);
   animation-duration: calc(1s * 0.8);
@@ -677,6 +786,7 @@ progress {
   animation-duration: calc(var(--animate-duration) * 0.8);
 }
 
+/* line 85, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__slow {
   -webkit-animation-duration: calc(1s * 2);
   animation-duration: calc(1s * 2);
@@ -684,6 +794,7 @@ progress {
   animation-duration: calc(var(--animate-duration) * 2);
 }
 
+/* line 91, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__slower {
   -webkit-animation-duration: calc(1s * 3);
   animation-duration: calc(1s * 3);
@@ -692,6 +803,7 @@ progress {
 }
 
 @media print, (prefers-reduced-motion: reduce) {
+  /* line 98, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
   .animate__animated {
     -webkit-animation-duration: 1ms !important;
     animation-duration: 1ms !important;
@@ -700,6 +812,7 @@ progress {
     -webkit-animation-iteration-count: 1 !important;
     animation-iteration-count: 1 !important;
   }
+  /* line 107, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
   .animate__animated[class*='Out'] {
     opacity: 0;
   }
@@ -776,6 +889,7 @@ progress {
   }
 }
 
+/* line 188, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounce {
   -webkit-animation-name: bounce;
   animation-name: bounce;
@@ -807,6 +921,7 @@ progress {
   }
 }
 
+/* line 218, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__flash {
   -webkit-animation-name: flash;
   animation-name: flash;
@@ -843,6 +958,7 @@ progress {
   }
 }
 
+/* line 255, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
@@ -912,6 +1028,7 @@ progress {
   }
 }
 
+/* line 333, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rubberBand {
   -webkit-animation-name: rubberBand;
   animation-name: rubberBand;
@@ -963,6 +1080,7 @@ progress {
   }
 }
 
+/* line 385, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__shakeX {
   -webkit-animation-name: shakeX;
   animation-name: shakeX;
@@ -1014,6 +1132,7 @@ progress {
   }
 }
 
+/* line 437, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__shakeY {
   -webkit-animation-name: shakeY;
   animation-name: shakeY;
@@ -1073,6 +1192,7 @@ progress {
   }
 }
 
+/* line 503, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__headShake {
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
@@ -1126,6 +1246,7 @@ progress {
   }
 }
 
+/* line 561, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__swing {
   -webkit-transform-origin: top center;
   transform-origin: top center;
@@ -1191,6 +1312,7 @@ progress {
   }
 }
 
+/* line 631, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__tada {
   -webkit-animation-name: tada;
   animation-name: tada;
@@ -1259,6 +1381,7 @@ progress {
   }
 }
 
+/* line 708, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__wobble {
   -webkit-animation-name: wobble;
   animation-name: wobble;
@@ -1338,6 +1461,7 @@ progress {
   }
 }
 
+/* line 798, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__jello {
   -webkit-animation-name: jello;
   animation-name: jello;
@@ -1391,6 +1515,7 @@ progress {
   }
 }
 
+/* line 856, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__heartBeat {
   -webkit-animation-name: heartBeat;
   animation-name: heartBeat;
@@ -1439,6 +1564,7 @@ progress {
   }
 }
 
+/* line 905, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backInDown {
   -webkit-animation-name: backInDown;
   animation-name: backInDown;
@@ -1480,6 +1606,7 @@ progress {
   }
 }
 
+/* line 947, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backInLeft {
   -webkit-animation-name: backInLeft;
   animation-name: backInLeft;
@@ -1521,6 +1648,7 @@ progress {
   }
 }
 
+/* line 989, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backInRight {
   -webkit-animation-name: backInRight;
   animation-name: backInRight;
@@ -1562,6 +1690,7 @@ progress {
   }
 }
 
+/* line 1031, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backInUp {
   -webkit-animation-name: backInUp;
   animation-name: backInUp;
@@ -1604,6 +1733,7 @@ progress {
   }
 }
 
+/* line 1074, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backOutDown {
   -webkit-animation-name: backOutDown;
   animation-name: backOutDown;
@@ -1645,6 +1775,7 @@ progress {
   }
 }
 
+/* line 1116, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backOutLeft {
   -webkit-animation-name: backOutLeft;
   animation-name: backOutLeft;
@@ -1686,6 +1817,7 @@ progress {
   }
 }
 
+/* line 1158, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backOutRight {
   -webkit-animation-name: backOutRight;
   animation-name: backOutRight;
@@ -1727,6 +1859,7 @@ progress {
   }
 }
 
+/* line 1200, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__backOutUp {
   -webkit-animation-name: backOutUp;
   animation-name: backOutUp;
@@ -1811,6 +1944,7 @@ progress {
   }
 }
 
+/* line 1293, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceIn {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
@@ -1886,6 +2020,7 @@ progress {
   }
 }
 
+/* line 1375, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceInDown {
   -webkit-animation-name: bounceInDown;
   animation-name: bounceInDown;
@@ -1957,6 +2092,7 @@ progress {
   }
 }
 
+/* line 1453, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceInLeft {
   -webkit-animation-name: bounceInLeft;
   animation-name: bounceInLeft;
@@ -2028,6 +2164,7 @@ progress {
   }
 }
 
+/* line 1531, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceInRight {
   -webkit-animation-name: bounceInRight;
   animation-name: bounceInRight;
@@ -2099,6 +2236,7 @@ progress {
   }
 }
 
+/* line 1609, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceInUp {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
@@ -2141,6 +2279,7 @@ progress {
   }
 }
 
+/* line 1652, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceOut {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
@@ -2186,6 +2325,7 @@ progress {
   }
 }
 
+/* line 1698, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceOutDown {
   -webkit-animation-name: bounceOutDown;
   animation-name: bounceOutDown;
@@ -2217,6 +2357,7 @@ progress {
   }
 }
 
+/* line 1728, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceOutLeft {
   -webkit-animation-name: bounceOutLeft;
   animation-name: bounceOutLeft;
@@ -2248,6 +2389,7 @@ progress {
   }
 }
 
+/* line 1758, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceOutRight {
   -webkit-animation-name: bounceOutRight;
   animation-name: bounceOutRight;
@@ -2289,6 +2431,7 @@ progress {
   }
 }
 
+/* line 1800, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__bounceOutUp {
   -webkit-animation-name: bounceOutUp;
   animation-name: bounceOutUp;
@@ -2313,6 +2456,7 @@ progress {
   }
 }
 
+/* line 1823, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeIn {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
@@ -2344,6 +2488,7 @@ progress {
   }
 }
 
+/* line 1853, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInDown {
   -webkit-animation-name: fadeInDown;
   animation-name: fadeInDown;
@@ -2375,6 +2520,7 @@ progress {
   }
 }
 
+/* line 1883, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInDownBig {
   -webkit-animation-name: fadeInDownBig;
   animation-name: fadeInDownBig;
@@ -2406,6 +2552,7 @@ progress {
   }
 }
 
+/* line 1913, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInLeft {
   -webkit-animation-name: fadeInLeft;
   animation-name: fadeInLeft;
@@ -2437,6 +2584,7 @@ progress {
   }
 }
 
+/* line 1943, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInLeftBig {
   -webkit-animation-name: fadeInLeftBig;
   animation-name: fadeInLeftBig;
@@ -2468,6 +2616,7 @@ progress {
   }
 }
 
+/* line 1973, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInRight {
   -webkit-animation-name: fadeInRight;
   animation-name: fadeInRight;
@@ -2499,6 +2648,7 @@ progress {
   }
 }
 
+/* line 2003, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInRightBig {
   -webkit-animation-name: fadeInRightBig;
   animation-name: fadeInRightBig;
@@ -2530,6 +2680,7 @@ progress {
   }
 }
 
+/* line 2033, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
@@ -2561,6 +2712,7 @@ progress {
   }
 }
 
+/* line 2063, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInUpBig {
   -webkit-animation-name: fadeInUpBig;
   animation-name: fadeInUpBig;
@@ -2592,6 +2744,7 @@ progress {
   }
 }
 
+/* line 2091, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInTopLeft {
   -webkit-animation-name: fadeInTopLeft;
   animation-name: fadeInTopLeft;
@@ -2623,6 +2776,7 @@ progress {
   }
 }
 
+/* line 2119, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInTopRight {
   -webkit-animation-name: fadeInTopRight;
   animation-name: fadeInTopRight;
@@ -2654,6 +2808,7 @@ progress {
   }
 }
 
+/* line 2147, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInBottomLeft {
   -webkit-animation-name: fadeInBottomLeft;
   animation-name: fadeInBottomLeft;
@@ -2685,6 +2840,7 @@ progress {
   }
 }
 
+/* line 2175, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeInBottomRight {
   -webkit-animation-name: fadeInBottomRight;
   animation-name: fadeInBottomRight;
@@ -2709,6 +2865,7 @@ progress {
   }
 }
 
+/* line 2198, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOut {
   -webkit-animation-name: fadeOut;
   animation-name: fadeOut;
@@ -2736,6 +2893,7 @@ progress {
   }
 }
 
+/* line 2224, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutDown {
   -webkit-animation-name: fadeOutDown;
   animation-name: fadeOutDown;
@@ -2763,6 +2921,7 @@ progress {
   }
 }
 
+/* line 2250, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutDownBig {
   -webkit-animation-name: fadeOutDownBig;
   animation-name: fadeOutDownBig;
@@ -2790,6 +2949,7 @@ progress {
   }
 }
 
+/* line 2276, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutLeft {
   -webkit-animation-name: fadeOutLeft;
   animation-name: fadeOutLeft;
@@ -2817,6 +2977,7 @@ progress {
   }
 }
 
+/* line 2302, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutLeftBig {
   -webkit-animation-name: fadeOutLeftBig;
   animation-name: fadeOutLeftBig;
@@ -2844,6 +3005,7 @@ progress {
   }
 }
 
+/* line 2328, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutRight {
   -webkit-animation-name: fadeOutRight;
   animation-name: fadeOutRight;
@@ -2871,6 +3033,7 @@ progress {
   }
 }
 
+/* line 2354, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutRightBig {
   -webkit-animation-name: fadeOutRightBig;
   animation-name: fadeOutRightBig;
@@ -2898,6 +3061,7 @@ progress {
   }
 }
 
+/* line 2380, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutUp {
   -webkit-animation-name: fadeOutUp;
   animation-name: fadeOutUp;
@@ -2925,6 +3089,7 @@ progress {
   }
 }
 
+/* line 2406, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutUpBig {
   -webkit-animation-name: fadeOutUpBig;
   animation-name: fadeOutUpBig;
@@ -2956,6 +3121,7 @@ progress {
   }
 }
 
+/* line 2434, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutTopLeft {
   -webkit-animation-name: fadeOutTopLeft;
   animation-name: fadeOutTopLeft;
@@ -2987,6 +3153,7 @@ progress {
   }
 }
 
+/* line 2462, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutTopRight {
   -webkit-animation-name: fadeOutTopRight;
   animation-name: fadeOutTopRight;
@@ -3018,6 +3185,7 @@ progress {
   }
 }
 
+/* line 2490, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutBottomRight {
   -webkit-animation-name: fadeOutBottomRight;
   animation-name: fadeOutBottomRight;
@@ -3049,6 +3217,7 @@ progress {
   }
 }
 
+/* line 2518, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__fadeOutBottomLeft {
   -webkit-animation-name: fadeOutBottomLeft;
   animation-name: fadeOutBottomLeft;
@@ -3121,6 +3290,7 @@ progress {
   }
 }
 
+/* line 2607, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__animated.animate__flip {
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
@@ -3186,6 +3356,7 @@ progress {
   }
 }
 
+/* line 2677, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__flipInX {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
@@ -3251,6 +3422,7 @@ progress {
   }
 }
 
+/* line 2747, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__flipInY {
   -webkit-backface-visibility: visible !important;
   backface-visibility: visible !important;
@@ -3292,6 +3464,7 @@ progress {
   }
 }
 
+/* line 2789, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__flipOutX {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
@@ -3337,6 +3510,7 @@ progress {
   }
 }
 
+/* line 2835, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__flipOutY {
   -webkit-animation-duration: calc(1s * 0.75);
   animation-duration: calc(1s * 0.75);
@@ -3391,6 +3565,7 @@ progress {
   }
 }
 
+/* line 2892, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__lightSpeedInRight {
   -webkit-animation-name: lightSpeedInRight;
   animation-name: lightSpeedInRight;
@@ -3440,6 +3615,7 @@ progress {
   }
 }
 
+/* line 2944, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__lightSpeedInLeft {
   -webkit-animation-name: lightSpeedInLeft;
   animation-name: lightSpeedInLeft;
@@ -3469,6 +3645,7 @@ progress {
   }
 }
 
+/* line 2972, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__lightSpeedOutRight {
   -webkit-animation-name: lightSpeedOutRight;
   animation-name: lightSpeedOutRight;
@@ -3498,6 +3675,7 @@ progress {
   }
 }
 
+/* line 3000, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__lightSpeedOutLeft {
   -webkit-animation-name: lightSpeedOutLeft;
   animation-name: lightSpeedOutLeft;
@@ -3532,6 +3710,7 @@ progress {
   }
 }
 
+/* line 3033, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateIn {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
@@ -3565,6 +3744,7 @@ progress {
   }
 }
 
+/* line 3065, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateInDownLeft {
   -webkit-animation-name: rotateInDownLeft;
   animation-name: rotateInDownLeft;
@@ -3598,6 +3778,7 @@ progress {
   }
 }
 
+/* line 3097, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateInDownRight {
   -webkit-animation-name: rotateInDownRight;
   animation-name: rotateInDownRight;
@@ -3631,6 +3812,7 @@ progress {
   }
 }
 
+/* line 3129, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateInUpLeft {
   -webkit-animation-name: rotateInUpLeft;
   animation-name: rotateInUpLeft;
@@ -3664,6 +3846,7 @@ progress {
   }
 }
 
+/* line 3161, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateInUpRight {
   -webkit-animation-name: rotateInUpRight;
   animation-name: rotateInUpRight;
@@ -3694,6 +3877,7 @@ progress {
   }
 }
 
+/* line 3190, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateOut {
   -webkit-animation-name: rotateOut;
   animation-name: rotateOut;
@@ -3723,6 +3907,7 @@ progress {
   }
 }
 
+/* line 3218, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateOutDownLeft {
   -webkit-animation-name: rotateOutDownLeft;
   animation-name: rotateOutDownLeft;
@@ -3752,6 +3937,7 @@ progress {
   }
 }
 
+/* line 3246, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateOutDownRight {
   -webkit-animation-name: rotateOutDownRight;
   animation-name: rotateOutDownRight;
@@ -3781,6 +3967,7 @@ progress {
   }
 }
 
+/* line 3274, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateOutUpLeft {
   -webkit-animation-name: rotateOutUpLeft;
   animation-name: rotateOutUpLeft;
@@ -3810,6 +3997,7 @@ progress {
   }
 }
 
+/* line 3302, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rotateOutUpRight {
   -webkit-animation-name: rotateOutUpRight;
   animation-name: rotateOutUpRight;
@@ -3872,6 +4060,7 @@ progress {
   }
 }
 
+/* line 3367, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__hinge {
   -webkit-animation-duration: calc(1s * 2);
   animation-duration: calc(1s * 2);
@@ -3929,6 +4118,7 @@ progress {
   }
 }
 
+/* line 3427, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__jackInTheBox {
   -webkit-animation-name: jackInTheBox;
   animation-name: jackInTheBox;
@@ -3961,6 +4151,7 @@ progress {
   }
 }
 
+/* line 3458, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rollIn {
   -webkit-animation-name: rollIn;
   animation-name: rollIn;
@@ -3989,6 +4180,7 @@ progress {
   }
 }
 
+/* line 3485, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__rollOut {
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
@@ -4017,6 +4209,7 @@ progress {
   }
 }
 
+/* line 3512, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomIn {
   -webkit-animation-name: zoomIn;
   animation-name: zoomIn;
@@ -4056,6 +4249,7 @@ progress {
   }
 }
 
+/* line 3550, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomInDown {
   -webkit-animation-name: zoomInDown;
   animation-name: zoomInDown;
@@ -4095,6 +4289,7 @@ progress {
   }
 }
 
+/* line 3588, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomInLeft {
   -webkit-animation-name: zoomInLeft;
   animation-name: zoomInLeft;
@@ -4134,6 +4329,7 @@ progress {
   }
 }
 
+/* line 3626, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomInRight {
   -webkit-animation-name: zoomInRight;
   animation-name: zoomInRight;
@@ -4173,6 +4369,7 @@ progress {
   }
 }
 
+/* line 3664, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomInUp {
   -webkit-animation-name: zoomInUp;
   animation-name: zoomInUp;
@@ -4207,6 +4404,7 @@ progress {
   }
 }
 
+/* line 3699, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomOut {
   -webkit-animation-name: zoomOut;
   animation-name: zoomOut;
@@ -4246,6 +4444,7 @@ progress {
   }
 }
 
+/* line 3737, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomOutDown {
   -webkit-animation-name: zoomOutDown;
   animation-name: zoomOutDown;
@@ -4279,6 +4478,7 @@ progress {
   }
 }
 
+/* line 3769, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomOutLeft {
   -webkit-animation-name: zoomOutLeft;
   animation-name: zoomOutLeft;
@@ -4312,6 +4512,7 @@ progress {
   }
 }
 
+/* line 3801, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomOutRight {
   -webkit-animation-name: zoomOutRight;
   animation-name: zoomOutRight;
@@ -4353,6 +4554,7 @@ progress {
   }
 }
 
+/* line 3841, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__zoomOutUp {
   -webkit-animation-name: zoomOutUp;
   animation-name: zoomOutUp;
@@ -4385,6 +4587,7 @@ progress {
   }
 }
 
+/* line 3872, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideInDown {
   -webkit-animation-name: slideInDown;
   animation-name: slideInDown;
@@ -4414,6 +4617,7 @@ progress {
   }
 }
 
+/* line 3900, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideInLeft {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft;
@@ -4443,6 +4647,7 @@ progress {
   }
 }
 
+/* line 3928, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideInRight {
   -webkit-animation-name: slideInRight;
   animation-name: slideInRight;
@@ -4472,6 +4677,7 @@ progress {
   }
 }
 
+/* line 3956, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideInUp {
   -webkit-animation-name: slideInUp;
   animation-name: slideInUp;
@@ -4502,6 +4708,7 @@ progress {
   }
 }
 
+/* line 3985, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideOutDown {
   -webkit-animation-name: slideOutDown;
   animation-name: slideOutDown;
@@ -4531,6 +4738,7 @@ progress {
   }
 }
 
+/* line 4013, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideOutLeft {
   -webkit-animation-name: slideOutLeft;
   animation-name: slideOutLeft;
@@ -4560,6 +4768,7 @@ progress {
   }
 }
 
+/* line 4041, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideOutRight {
   -webkit-animation-name: slideOutRight;
   animation-name: slideOutRight;
@@ -4589,6 +4798,7 @@ progress {
   }
 }
 
+/* line 4069, ../../PORTFOLIOS/02_Sport/src/sass/libs/_animate.scss */
 .animate__slideOutUp {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
@@ -4606,21 +4816,25 @@ progress {
   }
 }
 
+/* line 8, ../../PORTFOLIOS/02_Sport/src/sass/style.scss */
 * {
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
+/* line 11, ../../PORTFOLIOS/02_Sport/src/sass/style.scss */
 .container {
   max-width: 950px;
   margin: 0 auto;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo {
   min-height: 650px;
   padding: 21px 0 93px 0;
   background: url(../img/main.jpg) center center/cover no-repeat;
 }
 
+/* line 5, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__wrapper {
   display: flex;
   flex-direction: column;
@@ -4628,6 +4842,7 @@ progress {
   margin-top: 90px;
 }
 
+/* line 11, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__header {
   font-weight: 700;
   font-size: 42px;
@@ -4636,6 +4851,7 @@ progress {
   line-height: 42px;
 }
 
+/* line 18, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__subheader {
   margin-top: 17px;
   font-weight: 500;
@@ -4645,6 +4861,7 @@ progress {
   color: #FFFFFF;
 }
 
+/* line 26, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__icons {
   margin-top: 65px;
   width: 425px;
@@ -4652,6 +4869,7 @@ progress {
   justify-content: space-between;
 }
 
+/* line 32, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__icon {
   width: 108px;
   text-align: center;
@@ -4660,12 +4878,14 @@ progress {
   font-weight: 500;
 }
 
+/* line 38, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__icon img {
   display: block;
   margin: 0 auto;
   margin-bottom: 20px;
 }
 
+/* line 44, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__link {
   font-weight: 500;
   font-size: 16px;
@@ -4674,26 +4894,31 @@ progress {
   margin-top: 18px;
 }
 
+/* line 50, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_promo.scss */
 .promo__link a {
   color: #FFFFFF;
   text-transform: uppercase;
   text-decoration-line: underline;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* line 5, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header__logo {
   width: 250px;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header__logo img {
   width: 100%;
 }
 
+/* line 11, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header__official {
   font-weight: 500;
   font-size: 12px;
@@ -4701,11 +4926,13 @@ progress {
   text-align: center;
 }
 
+/* line 16, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header__official span {
   display: block;
   font-size: 18px;
 }
 
+/* line 21, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header__phone {
   display: block;
   font-weight: 700;
@@ -4713,28 +4940,33 @@ progress {
   color: #FFFFFF;
 }
 
+/* line 26, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header__phone:hover {
   color: #fff;
   text-decoration: none;
 }
 
+/* line 31, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_header.scss */
 .header__contacts {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages {
   padding: 70px 0 80px 0;
   background-color: #f6f6f6;
 }
 
+/* line 4, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages__wrapper {
   margin-top: 65px;
   display: flex;
   justify-content: space-between;
 }
 
+/* line 9, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages__item {
   display: flex;
   flex-direction: column;
@@ -4742,6 +4974,7 @@ progress {
   max-width: 238px;
 }
 
+/* line 15, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages__subtitle {
   margin-top: 38px;
   color: #0d0d0d;
@@ -4749,6 +4982,7 @@ progress {
   font-weight: 700;
 }
 
+/* line 21, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages__descr {
   margin-top: 26px;
   color: #0d0d0d;
@@ -4757,19 +4991,23 @@ progress {
   text-align: center;
 }
 
+/* line 27, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages__descr a {
   color: #ff0000;
   text-decoration: underline;
 }
 
+/* line 33, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages__icon_animated {
   animation: heartbeat 1.5s ease infinite;
 }
 
+/* line 35, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_advantages.scss */
 .advantages__icon_animated:hover {
   animation-play-state: paused;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_buttons.scss */
 .button {
   width: 153px;
   height: 32px;
@@ -4782,6 +5020,7 @@ progress {
   color: #FFFFFF;
 }
 
+/* line 12, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_buttons.scss */
 .button_main {
   margin-top: 67px;
   width: 300px;
@@ -4789,18 +5028,21 @@ progress {
   font-size: 16px;
 }
 
+/* line 18, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_buttons.scss */
 .button_submit {
   width: 100%;
   height: 55px;
   font-size: 16px;
 }
 
+/* line 23, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_buttons.scss */
 .button_mini {
   width: 135px;
   height: 44px;
   font-size: 14px;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_titles.scss */
 .title {
   color: #0d0d0d;
   font-size: 30px;
@@ -4809,18 +5051,21 @@ progress {
   text-transform: uppercase;
 }
 
+/* line 7, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_titles.scss */
 .title_left {
   color: #ffffff;
   font-size: 36px;
   text-align: left;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_consultation.scss */
 .consultation {
   min-height: 680px;
   padding: 100px 0 92px 0;
   background: url("../img/consultation.jpg") center center/cover no-repeat;
 }
 
+/* line 5, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_consultation.scss */
 .consultation__descr {
   font-weight: 500;
   font-size: 20px;
@@ -4828,10 +5073,12 @@ progress {
   color: #FFFFFF;
 }
 
+/* line 11, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_consultation.scss */
 .consultation .error {
   border: 1px solid red;
 }
 
+/* line 14, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_consultation.scss */
 .consultation label.error {
   color: #ffffff;
   border: none;
@@ -4839,6 +5086,7 @@ progress {
   margin-bottom: 15px;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_forms.scss */
 .feed-form {
   margin-top: 36px;
   display: flex;
@@ -4846,6 +5094,7 @@ progress {
   width: 300px;
 }
 
+/* line 6, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_forms.scss */
 .feed-form input {
   border-radius: 5px;
   height: 54px;
@@ -4858,24 +5107,29 @@ progress {
   font-size: 14px;
 }
 
+/* line 16, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_forms.scss */
 .feed-form input:nth-child(3) {
   margin-bottom: 20px;
 }
 
+/* line 20, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_forms.scss */
 .feed-form_mt25 {
   margin-top: 25px;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_carousel.scss */
 .carousel {
   padding: 81px 0;
 }
 
+/* line 3, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_carousel.scss */
 .carousel__inner {
   position: relative;
   width: 750px;
   margin: 0 auto;
 }
 
+/* line 8, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_carousel.scss */
 .carousel .slick-prev, .carousel .slick-next {
   position: absolute;
   top: 50%;
@@ -4885,20 +5139,24 @@ progress {
   background-color: #fff;
 }
 
+/* line 15, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_carousel.scss */
 .carousel .slick-prev img, .carousel .slick-next img {
   width: 31px;
   height: 50px;
 }
 
+/* line 20, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_carousel.scss */
 .carousel .slick-next {
   right: -66px;
   left: auto;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog {
   padding-bottom: 100px;
 }
 
+/* line 3, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog__tabs {
   margin-top: 70px;
   list-style-type: none;
@@ -4909,6 +5167,7 @@ progress {
   padding-left: 0;
 }
 
+/* line 12, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog__tab {
   width: 220px;
   height: 50px;
@@ -4925,21 +5184,25 @@ progress {
   transition: 0.5s all;
 }
 
+/* line 26, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog__tab:hover {
   box-shadow: 3px 3px 20px #c70101;
   border: none;
 }
 
+/* line 30, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog__tab div {
   transform: skewX(25deg);
 }
 
+/* line 33, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog__tab_active {
   color: #fff;
   background-color: #c70101;
   border: none;
 }
 
+/* line 39, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog__content {
   margin-top: 60px;
   display: none;
@@ -4947,10 +5210,12 @@ progress {
   flex-wrap: wrap;
 }
 
+/* line 44, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog__content_active {
   display: flex;
 }
 
+/* line 48, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item {
   width: 300px;
   min-height: 440px;
@@ -4960,6 +5225,7 @@ progress {
   margin-bottom: 20px;
 }
 
+/* line 55, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__img {
   display: block;
   margin: 0 auto;
@@ -4967,6 +5233,7 @@ progress {
   height: 200px;
 }
 
+/* line 61, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__subtitle {
   margin-top: 20px;
   color: #0d0d0d;
@@ -4975,6 +5242,7 @@ progress {
   text-align: center;
 }
 
+/* line 68, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__descr {
   margin-top: 16px;
   color: #0d0d0d;
@@ -4983,6 +5251,7 @@ progress {
   text-align: center;
 }
 
+/* line 75, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__link {
   display: block;
   margin-top: 17px;
@@ -4994,10 +5263,12 @@ progress {
   text-transform: uppercase;
 }
 
+/* line 84, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__link:hover {
   color: #c70101;
 }
 
+/* line 88, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item hr {
   background-color: #e8e8e8;
   margin-top: 19px;
@@ -5005,12 +5276,14 @@ progress {
   border-bottom: none;
 }
 
+/* line 94, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* line 99, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__old-price {
   color: #555555;
   font-size: 14px;
@@ -5018,17 +5291,20 @@ progress {
   text-decoration: line-through;
 }
 
+/* line 105, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__price {
   color: #050505;
   font-size: 20px;
   font-weight: 700;
 }
 
+/* line 110, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__wrapper {
   display: flex;
   width: calc(200% + 40px);
 }
 
+/* line 114, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__content {
   width: 50%;
   margin-right: 0px;
@@ -5036,11 +5312,13 @@ progress {
   transition: 0.5s all;
 }
 
+/* line 119, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__content_active {
   transform: translateX(0%);
   margin-right: 20px;
 }
 
+/* line 124, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__list {
   position: relative;
   width: 50%;
@@ -5053,11 +5331,13 @@ progress {
   list-style-type: none;
 }
 
+/* line 134, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__list_active {
   transform: translateX(-100%);
   margin-left: 0px;
 }
 
+/* line 138, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__list li {
   position: relative;
   color: #555555;
@@ -5066,6 +5346,7 @@ progress {
   margin-bottom: 20px;
 }
 
+/* line 144, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__list li:before {
   content: '';
   position: absolute;
@@ -5076,6 +5357,7 @@ progress {
   top: 7px;
 }
 
+/* line 155, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__back {
   position: absolute;
   bottom: 0;
@@ -5089,45 +5371,54 @@ progress {
   text-transform: uppercase;
 }
 
+/* line 166, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_catalog.scss */
 .catalog-item__back:hover {
   color: #c70101;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed {
   padding-bottom: 71px;
 }
 
+/* line 3, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed__item {
   display: flex;
   margin-top: 100px;
 }
 
+/* line 6, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed__item:nth-child(2) {
   margin-top: 70px;
 }
 
+/* line 10, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed__img {
   width: 169px;
   height: 169px;
 }
 
+/* line 14, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed__text {
   margin-left: 62px;
   padding-right: 60px;
 }
 
+/* line 18, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed__subtitle {
   color: #0d0d0d;
   font-size: 18px;
   font-weight: 700;
 }
 
+/* line 23, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed__count {
   color: #646464;
   font-size: 14px;
   font-weight: 500;
 }
 
+/* line 28, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_feed.scss */
 .feed__descr {
   color: #0d0d0d;
   font-size: 16px;
@@ -5135,11 +5426,13 @@ progress {
   margin-top: 10px;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer {
   height: 630px;
   position: relative;
 }
 
+/* line 4, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer__info {
   position: absolute;
   top: 0;
@@ -5151,6 +5444,7 @@ progress {
   padding: 50px 68px 60px 68px;
 }
 
+/* line 14, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer__addr {
   margin-bottom: 36px;
   font-weight: 500;
@@ -5160,6 +5454,7 @@ progress {
   color: #FFFFFF;
 }
 
+/* line 22, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer__phone {
   display: block;
   font-weight: 700;
@@ -5171,10 +5466,12 @@ progress {
   text-decoration: none;
 }
 
+/* line 31, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer__phone:hover {
   color: white;
 }
 
+/* line 35, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer__social-item {
   display: flex;
   justify-content: center;
@@ -5186,16 +5483,19 @@ progress {
   margin: 0 15px;
 }
 
+/* line 44, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer__social-item img {
   height: 27px;
 }
 
+/* line 48, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_footer.scss */
 .footer__social {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .overlay {
   display: none;
   position: fixed;
@@ -5205,6 +5505,7 @@ progress {
   background-color: rgba(0, 0, 0, 0.56);
 }
 
+/* line 9, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .modal {
   position: absolute;
   top: 50%;
@@ -5216,6 +5517,7 @@ progress {
   padding: 38px 40px 40px 40px;
 }
 
+/* line 18, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .modal__close {
   position: absolute;
   top: 0;
@@ -5226,6 +5528,7 @@ progress {
   cursor: pointer;
 }
 
+/* line 27, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .modal__subtitle {
   color: #0d0d0d;
   font-weight: 700;
@@ -5233,6 +5536,7 @@ progress {
   text-align: center;
 }
 
+/* line 33, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .modal__descr {
   font-weight: 700;
   font-size: 14px;
@@ -5241,24 +5545,29 @@ progress {
   color: #0D0D0D;
 }
 
+/* line 40, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .modal_mini {
   min-height: 140px;
 }
 
+/* line 43, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .modal .error {
   border: 1px solid red;
 }
 
+/* line 46, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 .modal label.error {
   border: none;
   text-align: center;
   margin-bottom: 15px;
 }
 
+/* line 53, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_modal.scss */
 #consultation, #order, #thanks {
   display: none;
 }
 
+/* line 1, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_pageup.scss */
 .pageup {
   display: none;
   position: fixed;
@@ -5268,6 +5577,91 @@ progress {
   height: 40px;
 }
 
+/* line 8, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_pageup.scss */
 .pageup img {
   width: 100%;
 }
+
+@media (max-width: 1200px) {
+  /* line 6, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  /* line 12, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .container {
+    max-width: 720px;
+  }
+  /* line 15, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .promo {
+    height: 400px;
+    width: 100%;
+  }
+  /* line 18, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .promo__header {
+    font-size: 36px;
+  }
+  /* line 21, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .promo__subheader {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  /* line 25, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .promo__icons {
+    margin-top: 35px;
+    width: 355px;
+  }
+  /* line 29, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .promo__icon {
+    width: 108px;
+    font-size: 12px;
+  }
+  /* line 33, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .promo__link {
+    margin-top: 14px;
+    font-size: 14px;
+  }
+  /* line 39, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .button_main {
+    margin-top: 57px;
+    width: 260px;
+    height: 45px;
+  }
+  /* line 46, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .header__logo {
+    width: 200px;
+  }
+  /* line 51, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .carousel__inner {
+    max-width: 520px;
+  }
+  /* line 53, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .carousel__inner img {
+    width: 100%;
+  }
+  /* line 59, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .catalog__content {
+    margin: 60px auto 0 auto;
+    width: 650px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* line 68, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .carousel__inner {
+    max-width: 420px;
+  }
+  /* line 72, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .carousel__slick-prev .carousel__slick-next img {
+    width: 10px;
+    height: 30px;
+  }
+  /* line 79, ../../PORTFOLIOS/02_Sport/src/sass/blocks/_media.scss */
+  .catalog__content {
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
