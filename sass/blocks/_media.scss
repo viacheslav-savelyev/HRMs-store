@@ -360,11 +360,26 @@
 		padding: 60px 0 56px 0;
       .title {
          &_left {
-            font-size: 22px;
+            font-size: 20px;
          }
       }
 		&__descr {
          font-size: 18px;
       }
-}
+	}
+
+		.footer {
+			&__info {
+				width: 378px;
+				height: 204px;
+				padding: 30px 40px 34px 40px;
+			}
+			&__addr {
+				font-size: 18px;
+				margin-bottom: 24px;
+			}
+			&__phone {
+				margin-bottom: 26px;
+			}
+		}
 }

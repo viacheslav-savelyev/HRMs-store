@@ -76,7 +76,7 @@ $(document).ready(function() {
    validateForms('#consultation form');
    validateForms('#order form');
 
-   $('input[name=phone]').mask("+7 (999) 999-9999");
+   $('input[name=phone]').mask("+48 999-999-999");
 
    $('form').submit(function (e) {
       e.preventDefault();
