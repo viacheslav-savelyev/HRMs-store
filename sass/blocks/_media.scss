@@ -208,7 +208,7 @@
 
 @media (max-width: 574px) {
 	.container {
-      max-width: 520px;
+      max-width: 500px;
 	}
 	.promo {
 		.header {
@@ -321,4 +321,50 @@
          margin: 30px auto 0 auto;
    }
    }
+}
+
+
+@media (max-width: 500px) {
+	.container {
+		max-width: 420px;
+	}
+	.promo {
+		&__header {
+			font-size: 20px;
+			margin-bottom: 0px;
+		}	
+		&__subheader {
+			font-size: 16px;
+		}
+	}
+}
+
+
+@media (max-width: 419px) {
+	.container {
+		max-width: 375px;
+	}
+
+	.promo {
+		&__wrapper {
+			margin-top: 25px;
+		}
+		&__header {
+			font-size: 18px;
+			margin-bottom: 0px;
+		}	
+	}
+
+	.consultation {
+		height: 420px;
+		padding: 60px 0 56px 0;
+      .title {
+         &_left {
+            font-size: 22px;
+         }
+      }
+		&__descr {
+         font-size: 18px;
+      }
+}
 }
